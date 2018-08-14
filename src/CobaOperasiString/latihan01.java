@@ -76,6 +76,13 @@ public class latihan01 {
         for(int i=0;i<arrTr.length;i++)
             System.out.println(arrTr[i]);
 
+                //latihan06
+        double d =1545454000;
+        System.out.println(String.format("Uang saya % ,.4f", d));
+        
+        System.out.println(String.format(Locale.forLanguageTag("in-ID"), "Uang saya Rp %,. 2r" ,d));
+        
+
 
     }
     }
