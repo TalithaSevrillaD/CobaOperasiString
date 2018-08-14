@@ -51,6 +51,24 @@ public class OperasiString {
         System.out.println("isi variabel t tanpa spasi : \"" + t.trim() + "\"");
         
         System.out.println("gabungan isi variabel x dan r : " + x.concat(r));
+        
+        
+        System.out.println("karakter mulai posisi 3 di variabel x : " + x.substring(3));
+        System.out.println("karakter dari posisi 3-5 di variabel x : " + x.substring(3, 6));
+        
+        String tolean = t.trim();
+        System.out.println("isi variabel toelan : " + t.trim());
+        System.out.println("rubah 'i' jadi 'E' di variabel tolean : " + tolean.replace("i", "E"));
+        
+        String[] arrT = tolean.split("");
+        System.out.println("pecah kata di variabel tolean : ");
+        for (int i=0;i<arrT.length;i++)
+            System.out.println(arrT[i]);
+        
+        String[] arrTr = tolean.split("r");
+        System.out.println("pecah berdasarkan huruf 'r' di variabel tolean : ");
+        for (int i=0;i<arrTr.length;i++)
+            System.out.println(arrTr[i]);
     }
     
     
