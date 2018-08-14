@@ -30,6 +30,16 @@ public class OperasiString {
         System.out.println("isi variabel r : " + r);
         System.out.println("isi x sama dengan r (Case Sensitive) : " + x.equals(r));
         System.out.println("isi x sama dengan r (Not Case Sensitive) : " + x.equalsIgnoreCase(r));
+        
+        
+        System.out.println("perbandingan isi x dengan y : " + x.compareTo(y));
+        System.out.println("perbandingan isi x dengan z (Case Sensitive) : " + x.compareTo(z));
+        System.out.println("perbandingan isi x dengan r (Case Sensitive) : " + x.compareTo(r));
+        System.out.println("perbandingan isi x dengan r (Not Case Sensitive) : " + x.compareToIgnoreCase(r));
+        
+        String s = "operasi";
+        System.out.println("isi variabel s : " + s);
+        System.out.println("perbandingan isi r dengan s (Case Sensitive) :" + r.compareTo(s));
     }
     
     
